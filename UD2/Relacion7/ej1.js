@@ -22,7 +22,7 @@ var fichaCafe = {
     ingredientes: cafe.ingredients,
     imagen: cafe.image
 };
-
+ 
 document.body.innerHTML = `
     <h1>${fichaCafe.nombre}</h1>
     <img src="${fichaCafe.imagen}" alt="${fichaCafe.nombre}" style="max-height: 300px;">
