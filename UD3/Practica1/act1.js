@@ -6,7 +6,6 @@ if(!("speecgSysnthesis" in window) || !("SpeechSysnthesisUtterance" in window)){
     estado.textContent ="Este navegador no admite lectura de voz";
     botonStart.disabled = true;
 }
-
 if (!SpeechRecognition) {
   alert("Tu navegador no soporta la Web Speech API. Prueba con Google Chrome u Edge.");
 } else {
