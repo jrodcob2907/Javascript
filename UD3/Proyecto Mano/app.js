@@ -1,7 +1,7 @@
 import { FilesetResolver, HandLandmarker } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.14/vision_bundle.mjs";
 
 const videoCamara = document.getElementById("videoCamara");
-const campoPosicion = document.getElementById("posicionIndice");
+const campoPosicion = document.getElementById("posicionPulgar");
 const botonInicio = document.getElementById("botonInicio");
 const estado = document.getElementById("estado");
 const mensaje = document.getElementById("mensaje");
@@ -81,7 +81,6 @@ function detectarManoEnVideo() {
       const posicionX = posicionPulgar.x * 100;
       const posicionY = posicionPulgar.y * 100;
 
-      const posicionXPalma = posicionPalma.x * 100;
       const posicionYPalma = posicionPalma.y * 100;
 
 

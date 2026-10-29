@@ -66,5 +66,5 @@ botonColor.addEventListener("click", () => {
   cubo.setAttribute("material", "color", colores[indiceColor]);
     cuboGrande = true;
 
-    cubo.setAttribute("scale", cuboGrande ? "1.5 1.5 1.5" : "1 1 1");
+    cubo.setAttribute("scale", cuboGrande ? "1.15 1.15 1.15" : "1 1 1");
 });
